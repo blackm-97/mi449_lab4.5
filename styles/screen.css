@@ -1,50 +1,50 @@
+:root{
+
+}
+
 body {
     font-family: Helvetica, sans-serif;
     color: #EAE8FF;
     background: #2D3142;
     padding: 0 40px;
     text-align: center;
+    padding-bottom: 100px;
 }
 
-nav {
-    margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
-    background: #212431;
+.cards{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
+.Sun{
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    font-size: 6vh;
 }
 
-nav ul li {
-    list-style-type: none;
-    margin: 0;
+.Sun .dot{
+    height: 30vh;
+    width: 14vw;
 }
 
-nav ul li a {
+section{
+    background-color: #1e2232;
+    padding-top: 30px;
+    border-radius: 10px;
+    font-size: 3vh;
+}
+
+.dot {
+    height: 10vh;
+    width: 4.5vw;
+    background-color: #bbb;
+    border-radius: 50%;
     display: inline-block;
-    padding: 20px;
-    color: #EAE8FF;
-    text-decoration: none;
-    font-size: 1.2em;
-}
+  }
 
 h1 {
-    font-size: 8em;
+    font-size: 6em;
     letter-spacing: -2px;
-}
-
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-img.about {
-    opacity: 0.5;
+    text-align: left;
 }
