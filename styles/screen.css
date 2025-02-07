@@ -27,6 +27,7 @@ body {
 .Sun .dot{
     height: 30vh;
     width: 14vw;
+    background-color: rgb(209, 174, 0);
 }
 
 section{
