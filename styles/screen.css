@@ -17,6 +17,7 @@ body {
     gap: 20px;
 }
 
+
 .Sun{
     grid-column: 1 / 3;
     grid-row: 1 / 3;
@@ -33,6 +34,11 @@ section{
     padding-top: 30px;
     border-radius: 10px;
     font-size: 3vh;
+    transition: 0.3;
+}
+
+section:hover{
+    background-color: #494482;
 }
 
 .dot {
