@@ -22,12 +22,54 @@ body {
     grid-column: 1 / 3;
     grid-row: 1 / 3;
     font-size: 6vh;
+    min-width: 250px;
 }
 
 .Sun .dot{
-    height: 30vh;
-    width: 14vw;
+    height: 40vh;
+    width: 40vh;
     background-color: rgb(209, 174, 0);
+}
+
+.Mercury .dot{
+    height: 5vh;
+    width: 5vh;
+}
+
+.Venus .dot{
+    height: 9vh;
+    width: 9vh;
+}
+
+.Earth .dot{
+    height: 10vh;
+    width: 10vh;
+}
+
+.Mars .dot{
+    height: 7vh;
+    width: 7vh;
+    background-color: #bf440f;
+}
+
+.Jupiter .dot{
+    height: 20vh;
+    width: 20vh;
+}
+
+.Saturn .dot{
+    height: 17vh;
+    width: 17vh;
+}
+
+.Uranus .dot{
+    height: 13vh;
+    width: 13vh;
+}
+
+.Neptune .dot{
+    height: 12vh;
+    width: 12vh;
 }
 
 section{
@@ -36,6 +78,9 @@ section{
     border-radius: 10px;
     font-size: 3vh;
     transition: 0.3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 section:hover{
@@ -44,7 +89,7 @@ section:hover{
 
 .dot {
     height: 10vh;
-    width: 4.5vw;
+    width: 10vh;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
