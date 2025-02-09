@@ -34,42 +34,49 @@ body {
 .Mercury .dot{
     height: 5vh;
     width: 5vh;
+    background-image: linear-gradient(-20deg, #456269, #205765, #456269);
 }
 
 .Venus .dot{
     height: 9vh;
     width: 9vh;
+    background-image: linear-gradient(-15deg, #dd8418, #cbc20c, #dd8418);
 }
 
 .Earth .dot{
     height: 10vh;
     width: 10vh;
+    background-image: repeating-linear-gradient(#0a9bd9, #0ccb3c 10%, #18bcdd);
 }
 
 .Mars .dot{
     height: 7vh;
     width: 7vh;
-    background-color: #bf440f;
+    background-image: linear-gradient(5deg, #bf440f, #821806, #bf440f);
 }
 
 .Jupiter .dot{
     height: 20vh;
     width: 20vh;
+    background-image: repeating-linear-gradient(#e0b758, #e9ebc1, #e0b758 30%);
 }
 
 .Saturn .dot{
     height: 17vh;
     width: 17vh;
+    background-image: linear-gradient(35deg, #e0b758, #131313, #e0b758);
 }
 
 .Uranus .dot{
     height: 13vh;
     width: 13vh;
+    background-image: radial-gradient(rgb(138, 232, 248), rgb(66, 215, 248));
 }
 
 .Neptune .dot{
     height: 12vh;
     width: 12vh;
+    background-image: radial-gradient(rgb(71, 126, 243), rgb(25, 95, 225));
 }
 
 section{

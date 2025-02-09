@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("styles");
   eleventyConfig.addPassthroughCopy("node_modeules/scrollreveal");
 
+
   eleventyConfig.addShortcode('planet', async function(name, data) {
     return `<section class="${name}">
     <span class="dot"></span>
